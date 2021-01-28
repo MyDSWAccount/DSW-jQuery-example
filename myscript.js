@@ -9,4 +9,7 @@ $(document).ready(function() {
 	$("#p1").click(function(){
 		$(".disappear").toggle();
 	});
+	$("#imagefader").click(function(){
+		$("img").fadeToggle("slow");
+	});
 });
