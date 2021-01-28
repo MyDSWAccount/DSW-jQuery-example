@@ -7,6 +7,6 @@ $(document).ready(function() {
 		$("img").toggle();
 	});
 	$("#p1").click(function(){
-		$(".disappear").hide();
+		$(".disappear").toggle();
 	});
 });
